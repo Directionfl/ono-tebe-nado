@@ -189,15 +189,15 @@ body {
 }
 
 .card-type-film {
-  background: url(../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card-type-book {
-  background: url(../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card-type-picture {
-  background: url(../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card-title {
@@ -261,8 +261,9 @@ body {
 .about {
   display: grid;
   grid-template-columns: 358px 1fr;
-  grid-template-rows: 248px 144px 1fr;
+  grid-template-rows: 240px 137px 1fr;
   padding-top: 35px;
+  row-gap: 8px;
 }
 
 .footer {
